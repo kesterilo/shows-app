@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SHOWS</title>
+  </head>
+  <body>
+    <h1>IMDB: Top 5 Episodes</h1>
+    <table border="solid" width="100%">
+      <tr>
+        <th>Title</th>
+        <th>Episodes</th>
+        <th>Rating</th>
+      </tr>
+      <tr th:object="${first}">
+        <td th:text="*{title}">Breaking Bad</td>
+        <td th:text="*{episode}">Ozymandias</td>
+        <td th:text="*{rating}">10.0</td>
+      </tr>
+      <tr th:object="${second}">
+        <td th:text="*{title}">Attack on Titan</td>
+        <td th:text="*{episode}">Hero</td>
+        <td th:text="*{rating}">9.9</td>
+      </tr>
+      <tr th:object="${third}">
+        <td th:text="*{title}">Attack on Titan</td>
+        <td th:text="*{episode}">Perfect Game</td>
+        <td th:text="*{rating}">9.9</td>
+      </tr>
+      <tr th:object="${fourth}">
+        <td th:text="*{title}">Star Wars: The Clone Wars</td>
+        <td th:text="*{episode}">Victory and Death</td>
+        <td th:text="*{rating}">9.9</td>
+      </tr>
+      <tr th:object="${fifth}">
+        <td th:text="*{title}">Mr. Robot</td>
+        <td th:text="*{episode}">407 Proxy Authentication Required</td>
+        <td th:text="*{rating}">9.9</td>
+      </tr>
+    </table>
+  </body>
+</html>
