@@ -1,4 +1,4 @@
-package com.showsapp;
+package com.projects.showsapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

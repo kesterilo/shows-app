@@ -1,4 +1,4 @@
-package com.showsapp;
+package com.projects.showsapp;
 
 import java.util.HashMap;
 import java.util.Map;

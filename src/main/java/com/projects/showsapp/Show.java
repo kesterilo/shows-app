@@ -1,4 +1,4 @@
-package com.showsapp;
+package com.projects.showsapp;
 
 public class Show {
   private String title;
